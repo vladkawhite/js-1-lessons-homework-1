@@ -1,6 +1,6 @@
 //     variant 1 
 
-    let n = prompt("Enter a number Fib")
+    let n = prompt("Enter a number Fibonacci")
 
     function fib(n) {
     let a = 1,
@@ -21,7 +21,7 @@
 
  // variant 2 
 
-//  let n = parseFloat(prompt('Enter a number Fib'));
+//  let n = parseFloat(prompt('Enter a number Fibonacci'));
 
 //  function fib (n) {
 //      if (n<2) {
@@ -37,7 +37,7 @@
 
 //   variant 3 
 
-//   let n = parseFloat(prompt('Enter a number Fib'));
+//   let n = parseFloat(prompt('Enter a number Fibonacci'));
 
 //   function fib(n) {
 //       let arr = [0, 1, 2];
@@ -57,7 +57,7 @@
  
 //   variant 4
 
-//  let n = prompt("Enter Fib")
+//  let n = prompt("Enter a number Fibonacci")
 
 //  function fib (n) {
 //      if (n < 2) {
