@@ -24,7 +24,7 @@
 //  let n = parseFloat(prompt('Enter a number Fibonacci'));
 
 //  function fib (n) {
-//      if (n<2) {
+//      if (n<1) {
 //         return n;
 //      } 
 //      else {
