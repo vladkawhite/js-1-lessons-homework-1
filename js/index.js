@@ -1,25 +1,57 @@
-   let  a = parseInt(prompt('Enter a: ')),
-        b = parseInt(prompt('Enter b: ')),
-        c = parseInt(prompt('Enter c: ')),
-        result1 = null,
-        result2 = null;
-    
-    let myFunc = function(a, b, c){
+//   variant 1 (циклічна)
+
+  let n = prompt("Enter a number Fib")
+
+  function fib(n) {
+   let a = 1,
+       b = 1;
+       
+  for (let i = 3; i <= n; i++) {
+  
+   let c = a + b;
+       a = b;
+       b = c;
+   }
+   return b;
+  }
+
+  document.write(fib(n))
+ 
+
+
+
+ // variant 2 (рекурсив)
+
+//  let n = parseFloat(prompt('Enter a number Fib'));
+
+//  function fibonacci (n) {
+//      if (n<2) {
+//          return n;
+//       } 
+//       else {
+//          return (fibonacci(n-1) + fibonacci(n-2));
+//       }
+//   }
+//   document.write(fibonacci(n-1) + fibonacci(n-2));
+
+
+
+ //  variant 3 (масив)
+
+//  let n = parseFloat(prompt('Enter a number Fib'));
+
+//  function fibonacci(n) {
+//      let array = [1, 1, 2];
+
+//      for (let i = 3; i < n; i++) {
+       
+//          array[0] = array[1];
+//          array[1] = array[2];
+//          array[2] = array[0] + array[1];
         
-        if(a === 0){
-            alert('Error a = 0');
-        }
-        
-        if(Math.pow(b, 2) - (4 * a * c) < 0){
-            alert('Error')
-        }
-        
-        else{
-            result1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c)))/(2 * a);
-            result2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c)))/(2 * a);
-        }
-    }
-    
-    myFunc(a, b, c)
-    document.write('x1 is: ' + result1 + '<br>' + 'x2 is: ' + result2)
-;
+//      }
+
+//      return array[2];
+//  }
+
+//  document.write(fibonacci(n));
