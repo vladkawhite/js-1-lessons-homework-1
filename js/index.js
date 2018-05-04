@@ -1,20 +1,20 @@
 //     variant 1 (циклічна)
 
-//   let n = prompt("Enter a number Fib")
+   let n = prompt("Enter a number Fib")
 
-//   function fib(n) {
-//   let a = 1,
-//       b = 1,
-//       c;
-//   for (let i = 3; i <= n; i++) {
+   function fib(n) {
+   let a = 1,
+       b = 1,
+       c;
+   for (let i = 3; i <= n; i++) {
   
-//   let c = a + b;
-//       a = b;
-//       b = c;
-//   }
-//   return b;
-//   }
-//   document.write(fib(n))
+   let c = a + b;
+       a = b;
+       b = c;
+   }
+   return b;
+   }
+   document.write(fib(n))
  
 
 
@@ -37,22 +37,22 @@
 
 //   variant 3 (масив)
 
-   let n = parseFloat(prompt('Enter a number Fib'));
+//   let n = parseFloat(prompt('Enter a number Fib'));
 
-   function fibonacci(n) {
-       let arr = [0, 1, 2];
+//   function fibonacci(n) {
+//       let arr = [0, 1, 2];
        
-       for (let i = 3; i < n; i++) {
+//       for (let i = 3; i < n; i++) {
        
-           arr[0] = arr[1];
-           arr[1] = arr[2];
-           arr[2] = arr[0] + arr[1];
+//           arr[0] = arr[1];
+//           arr[1] = arr[2];
+//           arr[2] = arr[0] + arr[1];
         
-       }
+//       }
 
-       return arr[2];
-   }
-   document.write(fibonacci(n));
+//       return arr[2];
+//   }
+//   document.write(fibonacci(n));
  
  
 //   variant 4
