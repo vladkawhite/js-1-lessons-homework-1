@@ -1,4 +1,4 @@
-//     variant 1 (циклічна)
+//     variant 1 
 
    let n = prompt("Enter a number Fib")
 
@@ -19,7 +19,7 @@
 
 
 
- // variant 2 (рекурсив)
+ // variant 2 
 
 //   let n = parseFloat(prompt('Enter a number Fib'));
 
@@ -35,7 +35,7 @@
 
 
 
-//   variant 3 (масив)
+//   variant 3 
 
 //   let n = parseFloat(prompt('Enter a number Fib'));
 
