@@ -21,54 +21,54 @@
 
  // variant 2 
 
-//  let n = parseFloat(prompt('Enter a number Fibonacci'));
+  let n = parseFloat(prompt('Enter a number Fibonacci'));
 
-//  function fib (n) {
-//      if (n<1) {
-//         return n;
-//      } 
-//      else {
-//         return (fib(n-1) + fib(n-2));
-//      }
-//  }
-//  document.write(fib(n-1) + fib(n-2));
+  function fib (n) {
+      if (n<1) {
+         return n;
+      } 
+      else {
+         return (fib(n-1) + fib(n-2));
+      }
+  }
+  document.write(fib(n-1) + fib(n-2));
 
 
 
 //   variant 3 
 
-//   let n = parseFloat(prompt('Enter a number Fibonacci'));
+   let n = parseFloat(prompt('Enter a number Fibonacci'));
 
-//   function fib(n) {
-//       let arr = [0, 1, 2];
+  function fib(n) {
+       let arr = [0, 1, 2];
        
-//       for (let i = 3; i < n; i++) {
+       for (let i = 3; i < n; i++) {
        
-//           arr[0] = arr[1];
-//           arr[1] = arr[2];
-//           arr[2] = arr[0] + arr[1];
+           arr[0] = arr[1];
+           arr[1] = arr[2];
+           arr[2] = arr[0] + arr[1];
         
-//       }
+       }
 
-//       return arr[2];
-//   }
-//   document.write(fib(n));
+       return arr[2];
+   }
+   document.write(fib(n));
  
  
 //   variant 4
 
-//  let n = prompt("Enter a number Fibonacci")
+  let n = prompt("Enter a number Fibonacci")
 
-//  function fib (n) {
-//      if (n < 2) {
-//          return [1];   
-//      }
-//      if (n < 3) {
-//          return [1, 1];
-//      }
+  function fib (n) {
+      if (n < 2) {
+          return [1];   
+      }
+      if (n < 3) {
+          return [1, 1];
+      }
 
-//      let a = fib(n - 1);
-//      a.push(a[n - 2] + a[n - 3]);
-//      return a;
-//  }
-//   document.write(fib(n).slice(-1));
+      let a = fib(n - 1);
+      a.push(a[n - 2] + a[n - 3]);
+      return a;
+  }
+   document.write(fib(n).slice(-1));
